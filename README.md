@@ -11,7 +11,11 @@ The original raptoreum miner have several third party llibraries
 and normally, they are configured to produce native code to run on any x86 platform.
 In this repo, all libraries configured and compiled separately for each platform to gain the maximum performace.
 
-Note: For now only AMD zen (1xxx 2xxx 3xxx 4xxx 5xxx) cpu models supoorted.
+Update 19.11.2021
+-----------------
+
+Original miner's windows binaries had been built on linux via cross compiler tools.
+From now on, all windows binaries will be built on windows by GCC 11.2 to ensure max performace.
 
 Usage
 -----
