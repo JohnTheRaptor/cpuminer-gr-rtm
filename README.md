@@ -15,11 +15,17 @@ Update 19.11.2021
 -----------------
 
 Original miner's windows binaries had been built on linux via cross compiler tools.
-From now on, all windows binaries will be built on windows by GCC 11.2 to ensure max performace.
+From now on, all windows binaries will be built on windows by GCC 11.2 to ensure maximum hash rates.
 
 Usage
 -----
 
-Typical usage like original miner on 64 bit Windows OS.
+Open config.json with a text editor and edit.
+
+On Windows (64 bit versions only) run cpuminer.bat
+
+On Linux (64 bit versions only) run cpuminer.sh
+
+For the first time, it will create tune.config file. (it takes about 70 to 155 mins)
 
 Happy minig!
